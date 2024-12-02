@@ -1,7 +1,7 @@
 // Nibardo Reyes Felix, Jashua Alvarez
 // CST-315 Operating Systems
 // Professor Ricardo Citro
-// October 20, 2024
+// December 1, 2024
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
@@ -49,7 +49,7 @@ void execute_command(char *command) {
 int main() {
     char input[300]; // Buffer to store user input
     printf("Input one of the following commands-\n");
-    printf("pwd, ls, ps, df, whoami, uname, date, mkdir, cd, ./script.sh, exit\n");
+    printf("pwd, ls, ps, df, whoami, uname, date, mkdir, cd, ./script.sh, clear, touch <file naem>. exit\n");
     printf("\n========================\n");
 
     // Infinite loop for continuous shell interaction
